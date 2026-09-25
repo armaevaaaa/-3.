@@ -1,0 +1,115 @@
+#boolean2
+
+A = int(input())
+print(A % 2 != 0)
+
+#boolean3
+
+A = int(input())
+print(A % 2 == 0)
+
+#boolean4
+
+A = int(input())
+B = int(input())
+print(A > 2 and B <= 3)
+
+#boolean5
+A = int(input())
+B = int(input())
+print(A >= 0 and B < -2)
+
+#boolean7
+
+A = int(input())
+B = int(input())
+C = int(input())
+print(A < B < C)
+
+#boolean8
+
+A = int(input())
+B = int(input())
+print(A % 2 != 0  and B % 2 != 0)
+
+
+#boolean9
+
+A = int(input())
+B = int(input())
+print(A % 2 != 0 or B % 2 != 0)
+
+#boolean10
+
+A = int(input())
+B = int(input())
+print((A % 2 != 0) != (B % 2 != 0))
+
+#boolean11
+
+A = int(input())
+B = int(input())
+print((A % 2 == 0) == (B % 2 == 0))
+
+#boolean13
+
+A = int(input())
+B = int(input())
+C = int(input())
+print(A > 0 or B > 0 or C > 0)
+
+#boolean15
+A = int(input())
+B = int(input())
+C = int(input())
+print((A > 0) + (B > 0) + (C > 0) == 2)
+
+#if1 
+
+A = int(input())
+if A > 0:
+    print(A + 1)
+else:
+    print(A)
+
+#if2
+
+    A = int(input())
+if A > 0:
+    print(A + 1)
+else:
+    print(A - 2)
+
+#if4
+A = int(input())
+B = int(input())
+C = int(input())
+
+count = 0
+
+if A > 0:
+    count += 1
+if B > 0:
+    count += 1
+if C > 0:
+    count += 1
+print(count)
+
+#if5
+
+A = int(input())
+B = int(input())
+C = int(input())
+
+p = 0
+n = 0
+
+if A > 0: p += 1
+elif A < 0: n += 1
+if B > 0: p += 1
+elif B < 0: n += 1
+if C > 0: p += 1
+elif C < 0: n += 1
+
+print("Положительных:", p)
+print("Отрицательных:", n)
